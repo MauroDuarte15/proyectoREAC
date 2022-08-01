@@ -10,7 +10,6 @@
 }
 
 .ContenedorItemList {
-    display: flex;
     justify-content: space-around;
 }
 

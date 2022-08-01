@@ -1,13 +1,14 @@
-import Carousel from 'react-bootstrap/Carousel';       
+import Carousel from 'react-bootstrap/Carousel';
+import './carousel.css'
 
 function IndividualIntervalsExample() {
   return (
-    <div className='row carouselContenedor'>
-    <Carousel className='col-sm-10 col-xs-10'>
+    <div className='row justify-content-center carouselContenedor'>
+    <Carousel className='col-sm-10 col-xs-10 carousel'>
       <Carousel.Item interval={1000}>
         <img
           className="d-block w-100"
-          src=""
+          src="http://fpoimg.com/300x250?text=Preview"
           alt="First slide"
         />
         <Carousel.Caption>
@@ -18,7 +19,7 @@ function IndividualIntervalsExample() {
       <Carousel.Item interval={500}>
         <img
           className="d-block w-100"
-          src=""
+          src="http://fpoimg.com/300x250?text=Preview"
           alt="Second slide"
         />
         <Carousel.Caption>
@@ -29,7 +30,7 @@ function IndividualIntervalsExample() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src=""
+          src="http://fpoimg.com/300x250?text=Preview"
           alt="Third slide"
         />
         <Carousel.Caption>

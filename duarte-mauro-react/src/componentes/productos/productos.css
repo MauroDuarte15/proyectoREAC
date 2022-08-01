@@ -1,6 +1,9 @@
 .product-cpm {
-    background-color: #F6FEFF;
+    background-color: #FEFFE5;
+    border: 1px solid #E7E8BA;
+    filter: drop-shadow(0 0 10px #00000033);
+    padding: 25px;
 }
 .Img {
-    max-width: auto;
+    width: 100%;
 }
