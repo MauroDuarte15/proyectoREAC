@@ -17,7 +17,7 @@ function NavBar() {
               <Nav.Link href="../../index.js">Inicio</Nav.Link>
               <Nav.Link href="../../index.js">Destacados</Nav.Link>
               <Nav.Link href="../../index.js">Ofertas</Nav.Link>
-              <Nav.Link href='../../index.js' className="CarritoIcon"><i class="bi bi-cart-plus-fill"></i></Nav.Link>
+              <Nav.Link href='../../index.js' className="CarritoIcon"><i className='bi bi-cart-plus-fill'></i></Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>

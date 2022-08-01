@@ -8,7 +8,7 @@ export default function Product() {
     }
 
     return (
-        <Card isProduct={true} className='col-sm-3 col-xs-3 CardContenedor '>
+        <Card isproduct="true" className='col-sm-3 col-xs-3 CardContenedor '>
             <div className="product-cmp">
                 <div className="ContainerImg">
                     <img className="Img" alt='asd' src="http://fpoimg.com/300x250?text=Preview" />
