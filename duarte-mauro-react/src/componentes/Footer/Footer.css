@@ -1,0 +1,22 @@
+.copy, .links {
+    text-align: center;
+}
+.links {
+    background-color: #edf7ff;
+    padding: 20px;
+}
+
+.LinkFooter{
+    text-decoration: none;
+    font-size: 1rem;
+    color: rgb(0, 0, 0);
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.copy {
+    background-color: #eceaff;
+    padding: 10px;
+    font-size: .8rem;
+    font-weight: bold;
+} 

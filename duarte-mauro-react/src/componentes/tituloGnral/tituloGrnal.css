@@ -1,0 +1,8 @@
+.TituloGrnalContenedor{
+    display: flex;
+}
+
+.TituloGrnal {
+    color: red;
+    text-align: center;
+}

@@ -1,0 +1,16 @@
+.card-cmp {
+    background-color: #FEFFE5;
+    border: 1px solid #E7E8BA;
+    filter: drop-shadow(0 0 10px #00000033);
+}
+
+.product-card {
+    background-color: #F6FEFF;
+    border-color: #A3D7E2;
+}
+
+.ContenedorItemList {
+    display: flex;
+    justify-content: space-around;
+}
+
