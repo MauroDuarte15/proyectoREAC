@@ -1,5 +1,6 @@
 import './productos.css'
 import { Card } from 'reactstrap';
+import Contador from '../contador/contador';
 
 export default function Product() {
 
@@ -8,8 +9,7 @@ export default function Product() {
     }
 
     return (
-        <Card isproduct="true" className='col-sm-3 col-xs-3 CardContenedor '>
-            <div className="product-cmp">
+        <Card isproduct={'true'} className='product-cmp col-sm-3 col-xs-3 CardContenedor '>
                 <div className="ContainerImg">
                     <img className="Img" alt='asd' src="http://fpoimg.com/300x250?text=Preview" />
                 </div>
@@ -22,7 +22,9 @@ export default function Product() {
                 <div className='buttonCard'>
                     <button className='BTN' onClick={comprar}>Comprar</button>
                 </div>
-            </div>
+                <div className='Contador'>
+                    <Contador></Contador>
+                </div>
         </Card>
     );
 } 

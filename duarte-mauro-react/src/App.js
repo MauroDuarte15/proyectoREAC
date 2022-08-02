@@ -5,6 +5,7 @@ import IndividualIntervalsExample from  './componentes/carousel/carousel'
 import Footer from './componentes/Footer/footer';
 import TituloGrnal from './componentes/tituloGnral/tituloGnral';
 
+
 function App() {
   return (
     <div className="App container-fluid">
@@ -12,7 +13,8 @@ function App() {
       <TituloGrnal titulo={'Carousel tittle'}></TituloGrnal>
       <IndividualIntervalsExample />
       <TituloGrnal titulo={'TituloCards'}></TituloGrnal>
-      <ContenedorItemList/>
+      <ContenedorItemList>
+      </ContenedorItemList>
       <Footer></Footer>
     </div>
   );

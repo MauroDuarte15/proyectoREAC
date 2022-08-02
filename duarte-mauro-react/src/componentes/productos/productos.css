@@ -1,8 +1,10 @@
 .product-cpm {
-    background-color: #FEFFE5;
-    border: 1px solid #E7E8BA;
-    filter: drop-shadow(0 0 10px #00000033);
-    padding: 25px;
+    min-height: 195px;
+    background-color: #F6FEFF;
+    padding: 22px;
+}
+.content {
+    text-align: right;
 }
 .Img {
     width: 100%;
