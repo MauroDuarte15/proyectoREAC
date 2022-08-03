@@ -62,4 +62,22 @@ export const data = [
         "imagen": "../imagenes/remera1.jpg",
 
     },
+    {
+        "id": 6,
+        "categoria": "Pantalon",
+        "nombre": "Palazo morley recto",
+        "precio": 1900,
+        "stock": 16,
+        "imagen": "../imagenes/remera1.jpg",
+
+    },
+    {
+        "id": 6,
+        "categoria": "Pantalon",
+        "nombre": "Palazo morley lanilla",
+        "precio": 2100,
+        "stock": 16,
+        "imagen": "../imagenes/remera1.jpg",
+
+    },
 ]

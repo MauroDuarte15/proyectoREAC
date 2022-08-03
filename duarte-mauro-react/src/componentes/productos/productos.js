@@ -2,6 +2,7 @@ import Contador from '../contador/contador';
 import React from 'react';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
+import './productos.css'
 
 export default function Product(props) {
     function productoAgregado () {
@@ -10,7 +11,7 @@ export default function Product(props) {
       );
     }
   return (
-    <Card className=''>
+    <Card className='col-sm-3 col-xs-3 cardCont'>
                 <div className="ContainerImg">
                   <Card.Img>{props.ImgUrl}</Card.Img>
                 </div>
