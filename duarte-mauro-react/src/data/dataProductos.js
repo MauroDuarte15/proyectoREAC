@@ -5,7 +5,7 @@ export const data = [
         "nombre": "Maxi Campera con piel",
         "precio": 4700,
         "stock": 10,
-        "imagen": ""
+        "imagen": "../imagenes/remera1.jpg",
 
     },
     {
@@ -14,7 +14,7 @@ export const data = [
         "nombre": "Campera con piel",
         "precio": 4300,
         "stock": 7,
-        "imagen": ""
+        "imagen": "../imagenes/remera1.jpg",
 
     },
     {
@@ -23,7 +23,7 @@ export const data = [
         "nombre": "Tricolor",
         "precio": 3500,
         "stock": 20,
-        "imagen": ""
+        "imagen": "../imagenes/remera1.jpg",
 
     },
     {
@@ -32,7 +32,7 @@ export const data = [
         "nombre": "MaxiPoleron",
         "precio": 2700,
         "stock": 25,
-        "imagen": ""
+        "imagen": "../imagenes/remera1.jpg",
 
     },
     {
@@ -41,7 +41,7 @@ export const data = [
         "nombre": "Saco manga globo",
         "precio": 4500,
         "stock": 10,
-        "imagen": ""
+        "imagen": "../imagenes/remera1.jpg",
 
     },
     {
@@ -50,7 +50,7 @@ export const data = [
         "nombre": "Bengalina c/ Lazo",
         "precio": 1700,
         "stock": 4,
-        "imagen": ""
+        "imagen": "../imagenes/remera1.jpg",
 
     },
     {
@@ -59,7 +59,7 @@ export const data = [
         "nombre": "Palazo morley",
         "precio": 1900,
         "stock": 16,
-        "imagen": ""
+        "imagen": "../imagenes/remera1.jpg",
 
     },
 ]

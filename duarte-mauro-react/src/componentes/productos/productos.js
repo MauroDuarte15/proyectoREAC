@@ -16,7 +16,7 @@ export default function Product(props) {
                 </div>
                 <div className="DescripcionProducto">
                     <Card.Title>{props.nombre}</Card.Title>
-                    <Card.Text className="fw-bold"> ${props.precio} </Card.Text>
+                    <Card.Text className="fw-bold"> ${props.precio}</Card.Text>
                 </div>
                 <div className='buttonCard Contador'>
                     <Button className='BTN' onClick={productoAgregado}>Comprar</Button>
