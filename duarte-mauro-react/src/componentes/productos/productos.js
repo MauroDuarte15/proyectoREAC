@@ -12,6 +12,7 @@ export default function Product(props) {
   return (
     <Card className=''>
                 <div className="ContainerImg">
+                  <Card.Img>{props.ImgUrl}</Card.Img>
                 </div>
                 <div className="DescripcionProducto">
                     <Card.Title>{props.nombre}</Card.Title>
