@@ -3,7 +3,7 @@ import{ useState} from 'react'
 
 
 export default function Contador (props) {
-    const [Contador,setCounter] = useState(props.initial);
+    const [Contador,setCounter] = useState(props.inicial);
     
     function agregarContador ( ){
         if (Contador >= props.stock){

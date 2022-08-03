@@ -1,30 +1,28 @@
-import './productos.css'
-import { Card } from 'reactstrap';
 import Contador from '../contador/contador';
+import React from 'react';
+import Button from 'react-bootstrap/Button';
+import Card from 'react-bootstrap/Card';
 
-export default function Product() {
-
-    const comprar = () => {
-        console.log('estoy comprando');
+export default function Product(props) {
+    function productoAgregado () {
+      return(
+        alert('Agregado al carrito!')
+      );
     }
-
-    return (
-        <Card isproduct={'true'} className='product-cmp col-sm-3 col-xs-3 CardContenedor '>
+  return (
+    <Card className=''>
                 <div className="ContainerImg">
-                    <img className="Img" alt='asd' src="http://fpoimg.com/300x250?text=Preview" />
                 </div>
                 <div className="DescripcionProducto">
-                    <h2>Este es el título del producto</h2>
-                    <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam fermentum ac est id malesuada. Nunc vestibulum enim est, sed sagittis sapien interdum ege
-                    </p>
+                    <Card.Title>{props.nombre}</Card.Title>
+                    <Card.Text className="fw-bold"> ${props.precio} </Card.Text>
                 </div>
-                <div className='buttonCard'>
-                    <button className='BTN' onClick={comprar}>Comprar</button>
-                </div>
-                <div className='Contador'>
-                    <Contador initial={1} stock={25}/>
+                <div className='buttonCard Contador'>
+                    <Button className='BTN' onClick={productoAgregado}>Comprar</Button>
+                    <Contador inicial={1} stock={25}/>
                 </div>
         </Card>
-    );
-} 
+  );
+}
+
+
