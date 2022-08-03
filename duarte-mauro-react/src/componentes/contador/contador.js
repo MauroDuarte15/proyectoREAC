@@ -1,21 +1,34 @@
-import {useState} from 'react'
+import{ useState} from 'react'
 
-function Contador () {
-    // const handlers = useState(0);
-    const [contador, setContador] = useState(0);
 
-    function agregarAlContador () {
-        setContador(contador + 1);
-    }
+
+export default function Contador (props) {
+    const [Contador,setCounter] = useState(props.initial);
     
+    function agregarContador ( ){
+        if (Contador >= props.stock){
+                alert(`El stock maximo es ${props.stock}`);
+        } else {
+            setCounter ( Contador + 1);
+        }
+
+    }
+
+    function reducirContador () {
+        if (Contador <= 1) {
+            alert("¡Usted no ha seleccionado ningun producto!")
+        } else {
+            setCounter (Contador - 1)
+        }
+    }
+
     return (
-        <div>
-            <p>
-                {contador}
-            </p>
-            <br/>
-            <button onClick={agregarAlContador} > Agregar 1+ </button>
+        <div className='container d-flex  justify-content-center col-6 '>
+            <div className='container d-flex align-items-center col-12 text-center fw-bolder m-2'>
+                <button className='col-4 btnAdd' onClick={agregarContador}>+</button>
+                <span className='col-6  text-dark fs-4'> {Contador}</span>
+                <button className='col-4 btnRedd' onClick={reducirContador}  >-</button>    
+            </div>
         </div>
     )
 }
-export default Contador;

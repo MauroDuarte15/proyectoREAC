@@ -23,7 +23,7 @@ export default function Product() {
                     <button className='BTN' onClick={comprar}>Comprar</button>
                 </div>
                 <div className='Contador'>
-                    <Contador></Contador>
+                    <Contador initial={1} stock={25}/>
                 </div>
         </Card>
     );
