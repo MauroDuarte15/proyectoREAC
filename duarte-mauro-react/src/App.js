@@ -4,13 +4,15 @@ import ItemListContainer from './componentes/contenedorItemList/contenedorItemLi
 import IndividualIntervalsExample from  './componentes/carousel/carousel'
 import Footer from './componentes/Footer/footer';
 import TituloGrnal from './componentes/tituloGnral/tituloGnral';
+import CartWidget from './componentes/CartWidget/CartWidget';
 
 
 function App() {
   return (
     <div className="App container-fluid flex bg-light">
-      <div className='NavBar'>
+      <div className='row NavBar'>
           <NavBar/>
+          <CartWidget></CartWidget>
       </div>
       <div className='Carousel'>
           <TituloGrnal titulo={'Carousel tittle'}></TituloGrnal>
